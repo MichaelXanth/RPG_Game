@@ -180,4 +180,4 @@ Quit Game                   | q
 
 <br> 
 
-Enjoy!
+**Enjoy!**
