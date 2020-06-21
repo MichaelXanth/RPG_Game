@@ -1,6 +1,10 @@
 # RPG Game
 
-This is an RPG (Role Playing Game).
+Created by: Michael Xanthopoulos and Eleftherios Dimitras.
+
+This is an RPG (Role Playing Game). \
+The project was implemeted as an assignment in the Object Oriented Programming course (2017).
+
 
 ## How to use
 
@@ -111,7 +115,6 @@ Their level is increased when enough experience is collected and then their skil
     
   - LightingSpells \
     Besides the damage it causes, it reduces the **probability** for the opponent to avoid an attack for some rounds
-    
 
 ## Gameplay
 
@@ -126,7 +129,7 @@ You can spend the money you gathered at the local store. There are items and spe
 Heroes are indicated with a green mark, obstacles with a red mark and the store with a yellow mark.
 
 When heoes are moving in the map, they can enter in a mode called 'inventory' where they can change their **armor**, change the **weapon** that each hero holds and they also can drink **potions**.
-
+<br>
 
 ## Special Characteristics
 
@@ -141,6 +144,7 @@ When choosing to buy something, all objects are filtered so that only these that
 Error messages are also displayed at every wrong or not permitted action for informing player what went wrong.
 
 The graphics system is implemented to work as smoother as possible. It automatically refreshes the screen and resotres the gameplay grid, so that no crushing occurs when hitting wrong buttons and doing not permitted actions.
+<br>
 
 ## Screenshots
 
@@ -161,7 +165,7 @@ The graphics system is implemented to work as smoother as possible. It automatic
 | Battle Mode (_Round 1_) | Filtered Market (_Round 6 - 1_<sup><b>st</b></sup> _Monster Defeated_)  |
 |--|--|
 | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round1.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round6_defeated_monster.png) |
-
+<br>
 
 ## Key Bindings
 
@@ -175,7 +179,4 @@ Navigate heroes, items, ... | 1,2,3
 Enter Inventory             | i
 Quit Game                   | q
 
----
-
-Created by: Michael Xanthopoulos and Eleftherios Dimitras.
-This project was implemeted as an assignment in the Object Oriented Programming course (2017).
+Enjoy!
