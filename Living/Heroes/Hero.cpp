@@ -4,27 +4,28 @@
 #include <unistd.h>
 
 #include "../../Input_Validation/Input_Validation.hpp"
-#include "../../Keyboard/Keyboard.hpp"
 
-#include "../../Spells/LightingSpell.hpp"
-#include "../../Spells/FireSpell.hpp"
-#include "../../Spells/IceSpell.hpp"
-#include "../../Spells/Spell.hpp"
-
-#include "../../Items/Weapon.hpp"
-#include "../../Items/Potion.hpp"
 #include "../../Items/Armor.hpp"
 #include "../../Items/Items.hpp"
+#include "../../Items/Potion.hpp"
+#include "../../Items/Weapon.hpp"
+
+#include "../../Keyboard/Keyboard.hpp"
+
+#include "../../Spells/FireSpell.hpp"
+#include "../../Spells/IceSpell.hpp"
+#include "../../Spells/LightingSpell.hpp"
+#include "../../Spells/Spell.hpp"
 
 #include "Hero.hpp"
 
 using namespace std;
 
-unsigned int Hero::baseHealth = 50;
+unsigned int Hero::baseHealth     = 50;
 unsigned int Hero::baseMagicPower = 30;
-unsigned int Hero::baseDexterity = 10;
-unsigned int Hero::baseStrength = 10;
-float Hero::baseAgility = 0.101;
+unsigned int Hero::baseDexterity  = 10;
+unsigned int Hero::baseStrength   = 10;
+float        Hero::baseAgility    = 0.101;
 
 Hero::Hero(const string& setName, const int& setHealth, const int& setLevel, const unsigned int& setMagic, const unsigned int& setStrength,
            const unsigned int& setDexterity, const float& setAgility, const unsigned int& startingMoney)

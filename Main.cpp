@@ -27,19 +27,19 @@ int main(void)
 
     heroes.push_back(new Paladin(name.names[rand() % name.names.size()],
                                  Hero::GetBaseHealth() , 1 , Hero::GetBaseMagicPower(),
-                                 Hero::GetBaseDexterity() + 600 , Hero::GetBaseStrength() + 2,
+                                 Hero::GetBaseDexterity() + (float(rand()) / RAND_MAX * 600), Hero::GetBaseStrength() + 2,
                                  Hero::GetBaseAgility(), 50));
 
     heroes.push_back(new Sorcerer(name.names[rand() % name.names.size()],
                                   Hero::GetBaseHealth() , 1 , Hero::GetBaseMagicPower(),
-                                  Hero::GetBaseDexterity() + 800 , Hero::GetBaseStrength(),
-                                  Hero::GetBaseAgility() + 0.15, 50));
+                                  Hero::GetBaseDexterity() + (float(rand()) / RAND_MAX * 800), Hero::GetBaseStrength(),
+                                  Hero::GetBaseAgility() + (float(rand()) / RAND_MAX * 0.7), 50));
 
     heroes.push_back(new Warrior(name.names[rand() % name.names.size()],
                                  Hero::GetBaseHealth() , 1 , Hero::GetBaseMagicPower(),
                                  Hero::GetBaseDexterity() , Hero::GetBaseStrength() + 3,
-                                 Hero::GetBaseAgility() + 0.2, 50));
-
+                                 Hero::GetBaseAgility() + (float(rand()) / RAND_MAX * 0.8), 50));
+    
     Game game(heroes , grid , market);
     game.Play();
 
