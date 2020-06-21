@@ -149,16 +149,16 @@ The graphics system is implemented to work as smoother as possible. It automatic
 | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/grid.png) |
 
 
-| Market (***Info Disabled***) | Market (***Info Enabled***)  |
+| Market (_Info Disabled_) | Market (_Info Enabled_)  |
 |--|--|
 | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_no_info.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_info.png) |
 
 
-| Filtered Market (***Info Disabled***) | Filtered Market (***Info Enabled***)  |
+| Filtered Market (_Info Disabled_) | Filtered Market (_Info Enabled_)  |
 |--|--|
 | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_filtered_no_info.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_filtered_info.png) |
 
-| Battle Mode (***Round 1***) | Filtered Market (***Round 6 - 1***<sup><b>st</b></sup> ***Monster Defeated***)  |
+| Battle Mode (_Round 1_) | Filtered Market (_Round 6 - 1_<sup><b>st</b></sup> _Monster Defeated_)  |
 |--|--|
 | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round1.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round6_defeated_monster.png) |
 
@@ -174,3 +174,8 @@ Move Right                  | d
 Navigate heroes, items, ... | 1,2,3
 Enter Inventory             | i
 Quit Game                   | q
+
+---
+
+Created by: Michael Xanthopoulos and Eleftherios Dimitras.
+This project was implemeted as an assignment in the Object Oriented Programming course (2017).
