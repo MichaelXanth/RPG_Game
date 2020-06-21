@@ -142,14 +142,17 @@ Error messages are also displayed at every wrong or not permitted action for inf
 
 The graphics system is implemented to work as smoother as possible. It automatically refreshes the screen and resotres the gameplay grid, so that no crushing occurs when hitting wrong buttons and doing not permitted actions.
 
+## Screenshots
+
+
 ## Key Bindings
 
-Action    | Key
-----------|----
-Move Up   | w
-Move Down | s
-Move Left | a
-Move Right| d
-Enter Inventory| i
-Quit Game | q
+Action                      | Key
+----------------------------|----
+Move Up                     | w
+Move Down                   | s
+Move Left                   | a
+Move Right                  | d
 Navigate heroes, items, ... | 1,2,3
+Enter Inventory             | i
+Quit Game                   | q
