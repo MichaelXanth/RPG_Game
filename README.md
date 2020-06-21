@@ -21,7 +21,6 @@ They have a limited amount of coins to spend as the game begins which is being i
 
 A hero earns coins and experience when a monster is defeated. The amount of earnings depends on heroe's level. \
 Their level is increased when enough experience is collected and then their skills are automatically upgraded.
-
 <br>
 
 #### General Info
@@ -31,7 +30,7 @@ Their level is increased when enough experience is collected and then their skil
   All heroes have:
     - Health Power (HP)
     - Magic Power  (MP)
-    - Dexterity (_allows him to use portions more effectively_)
+    - Dexterity (_allows him to use potions more effectively_)
     - Strength &nbsp;(_increases the amount of damaged caused by a weapon_)
     - Agility &emsp;&nbsp;(_increases the chance of avoiding an attack_)
     - Money
@@ -113,11 +112,44 @@ Their level is increased when enough experience is collected and then their skil
   - LightingSpells \
     Besides the damage it causes, it reduces the **probability** for the opponent to avoid an attack for some rounds
     
-    
-You are given 3 heroes one of each class (Warrior, Sorcerer, Paladin) and you have to battle monsters to level up and gain money. Each of the heroes have unique characteristic
-and they begin level 1 with certain values.
-Every step you take to an open space can trigger a battle, if the battle doesn't happen then you restore some of your lost HP an MP (depending on your hero level).
-As your heroes level up, the monsters level up as well (The battles are more rewarding).
-You can spend the money you gathered at the local store.
-There are items and spells you can buy from there (More information on items and spells are given inside-game when you enter the store).
+
+## Gameplay
+
+Heroes move all together. Every step you take to an open square, a battle can be triggered. \
+If battle doesn't happen, you restore some of your lost HP an MP (depending on your hero level). \
+
+As your heroes level up, monsters level up as well (The battles are more rewarding). \
+
+You can spend the money you gathered at the local store. There are items and spells you can buy from there. \
+(More information on items and spells are given inside the store).
+
 Heroes are indicated with a green mark, obstacles with a red mark and the store with a yellow mark.
+
+When heoes are moving in the map, they can enter in a mode called 'inventory' where they can change their **armor**, change the **weapon** that each hero holds and they also can drink **potions**.
+
+
+## Special Characteristics
+
+The game is terminal based and it's implemented with an advanced integration and graphics system.
+
+Unbuffered input is implemented so that a better gameplay experience is ensured, removing the need of hitting enter at every needed action.
+
+When heroes are in the store, they can see all available items and spells for sale. They can expand the information tab for all of them as well.
+
+When choosing to buy something, all objects are filtered so that only these that current hero is capable of purchasing are being displayed.
+
+Error messages are also displayed at every wrong or not permitted action for informing player what went wrong.
+
+The graphics system is implemented to work as smoother as possible. It automatically refreshes the screen and resotres the gameplay grid, so that no crushing occurs when hitting wrong buttons and doing not permitted actions.
+
+## Key Bindings
+
+Action    | Key
+----------|----
+Move Up   | w
+Move Down | s
+Move Left | a
+Move Right| d
+Enter Inventory| i
+Quit Game | q
+Navigate heroes, items, ... | 1,2,3
