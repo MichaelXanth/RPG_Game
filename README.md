@@ -119,9 +119,9 @@ Their level is increased when enough experience is collected and then their skil
 ## Gameplay
 
 Heroes move all together. Every step you take to an open square, a battle can be triggered. \
-If battle doesn't happen, you restore some of your lost HP an MP (depending on your hero level). \
+If battle doesn't happen, you restore some of your lost HP an MP (depending on your hero level).
 
-As your heroes level up, monsters level up as well (The battles are more rewarding). \
+As your heroes level up, monsters level up as well (The battles are more rewarding).
 
 You can spend the money you gathered at the local store. There are items and spells you can buy from there. \
 (More information on items and spells are given inside the store).
@@ -165,7 +165,6 @@ The graphics system is implemented to work as smoother as possible. It automatic
 | Battle Mode (_Round 1_) | Filtered Market (_Round 6 - 1_<sup><b>st</b></sup> _Monster Defeated_)  |
 |--|--|
 | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round1.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round6_defeated_monster.png) |
-<br>
 
 ## Key Bindings
 
@@ -178,5 +177,7 @@ Move Right                  | d
 Navigate heroes, items, ... | 1,2,3
 Enter Inventory             | i
 Quit Game                   | q
+
+<br> 
 
 Enjoy!
