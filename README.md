@@ -144,6 +144,24 @@ The graphics system is implemented to work as smoother as possible. It automatic
 
 ## Screenshots
 
+| Grid |
+|------|
+| ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/grid.png) |
+
+
+| Market (***Info Disabled***) | Market (***Info Enabled***)  |
+|--|--|
+| ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_no_info.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_info.png) |
+
+
+| Filtered Market (***Info Disabled***) | Filtered Market (***Info Enabled***)  |
+|--|--|
+| ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_filtered_no_info.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/market_filtered_info.png) |
+
+| Battle Mode (***Round 1***) | Filtered Market (***Round 6 - 1***<sup><b>st</b></sup> ***Monster Defeated***)  |
+|--|--|
+| ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round1.png) | ![alt_text](https://github.com/MichaelXanth/RPG_Game/blob/master/Screenshots/battle_mode_round6_defeated_monster.png) |
+
 
 ## Key Bindings
 
