@@ -710,6 +710,9 @@ bool Game::ChooseAction(Hero& hero, short action, vector<Monster *>& monsters)
             if (Battle::UsePotion(hero,true) == false)
                 return false;
             return true;
+        
+        default:
+        return false;
     }
 }
 
@@ -729,5 +732,8 @@ bool Game::OpenInventory(Hero& hero, short action)
             if (Battle::UsePotion(hero) == false)
                 return false;
             return true;
+        
+        default:
+        return false;
     }
 }

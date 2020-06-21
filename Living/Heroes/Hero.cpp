@@ -318,6 +318,9 @@ unsigned int Hero::GetNumberOfSpells(unsigned int typeOfSpell) const
 
         case 3:
             return fireSpellsArray.size();
+        
+        default:
+        return 0;
     }
 }
 
@@ -357,6 +360,9 @@ Spell* Hero::GetSpellFromSlot(const unsigned int slotNum, const unsigned int typ
 
         case 3:
             return fireSpellsArray[slotNum];
+        
+        default:
+        return 0;
     }
 }
 
