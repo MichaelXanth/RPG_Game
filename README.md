@@ -3,7 +3,7 @@
 Created by: Michael Xanthopoulos and Eleftherios Dimitras.
 
 This is an RPG (Role Playing Game). \
-The project was implemeted as an assignment in the Object Oriented Programming course (2017).
+The project was implemented as an assignment in the Object Oriented Programming course (2017).
 
 
 ## How to use
